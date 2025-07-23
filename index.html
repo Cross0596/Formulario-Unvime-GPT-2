@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitud de Libreta Universitaria - UNViMe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="LOGOTIPO-UNViMe-COLOR.png" alt="Logo UNViMe" class="logo">
+        <h1>Formulario de Solicitud de Libreta Universitaria</h1>
+        <form id="libretaForm">
+            <label for="apellido">Apellido y Nombre</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="dni">DNI</label>
+            <input type="number" id="dni" name="dni" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="telefono" required>
+
+            <label for="escuela">Escuela</label>
+            <select id="escuela" name="escuela" required>
+                <option value="">Seleccionar</option>
+                <option value="Ciencias de la Salud">Ciencias de la Salud</option>
+                <option value="Gestión de Empresas y Economía">Gestión de Empresas y Economía</option>
+                <option value="Ingeniería y Ciencias Ambientales">Ingeniería y Ciencias Ambientales</option>
+                <option value="Educación no presencial">Educación no presencial</option>
+            </select>
+
+            <label for="carrera">Carrera</label>
+            <select id="carrera" name="carrera" required></select>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </div>
+</body>
+</html>
