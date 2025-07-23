@@ -2,21 +2,30 @@
 document.getElementById("escuela").addEventListener("change", function() {
     const carreras = {
         "Ciencias de la Salud": [
-            "Enfermería Universitaria",
-            "Licenciatura en Kinesiología y Fisiatría"
+            "Licenciatura en Enfermería",
+            "Licenciatura en Kinesiología y Fisiatría",
+            "Licenciatura en Obstetricia",
+            "Ciclo Complementario para la Licenciatura en Actividad Fisica",
+            "Medicina"
         ],
         "Gestión de Empresas y Economía": [
-            "Contador Público Nacional",
-            "Licenciatura en Administración"
+            "Licenciatura en Economía",
+            "Licenciatura en Logistica",
+            "Licenciatura en Diseño de Comunicación",
+            "Tecnicatura Universitaria en Gestión Deportiva",
+            "Tecnicatura Universitaria en Marketing Cultural y Deportivo"
         ],
         "Ingeniería y Ciencias Ambientales": [
             "Ingeniería en Sistemas de Información",
-            "Ingeniería Química",
-            "Tecnicatura Universitaria en Energías Renovables"
+            "Ingeniería Agroindustria",
+            "Bioingenieria",
+            "Programador Univeristario de Sistemas",
+            "Tecnicatura Superior en Gestión Ambiental",
+            "Tecnicatura Univeristaria en Agroalimentos"
         ],
-        "Educación no presencial": [
-            "Licenciatura en Gestión Educativa",
-            "Tecnicatura Universitaria en Gestión y Administración de las Organizaciones"
+        "Ciencias Sociales y Educación": [
+            "Profesorado de Educación Inicial",
+            "Profesorado de Educación Primaria"
         ]
     };
     const selectCarrera = document.getElementById("carrera");
